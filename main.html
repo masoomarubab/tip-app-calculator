@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator app</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="logo-div mb-3">
+        <img src="images/logo.svg" class="logo" alt="">
+    </div>
+
+    <main class="container main w-50 m-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="input1">
+                    <label for="" class="bill-label pt-4">Bill</label> <br>
+                    <input type="text" class="bill w-100" name="" id="bill-input">
+                </div>
+    
+                <div>
+                    <label for=""  class="bill-label pt-4">Select tip %</label> <br>
+                    <div class="div-btns">
+                        <button class="btn w-25" id="btn5" value="5">5%</button>
+                        <button class="btn w-25" id="btn10" value="10">10%</button>
+                        <button class="btn w-25" id="btn15" value="15">15%</button>
+                        <button class="btn w-25" id="btn25" value="25">25%</button>
+                        <button class="btn w-25" id="btn50" value="50">50%</button>
+                        <input type="text" class="custom-btn w-25" name="" id="custom-tip-input" placeholder="Custom">
+                    </div>
+                </div>
+    
+                <div class="pb-4"> 
+                    <label for=""  class="bill-label pt-4">Number of People</label> <br>
+                    <span class="people-span"></span>
+                    <input type="text" class="No-of-people w-100" name="people-input" id="">
+                    <i class="fa fa-user icon"></i>
+                </div>    
+    
+            </div>
+    
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-4 mb-4">
+                <div class="tip-amount w-100 h-100 pr-3 pl-3">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                            <p class="tip pt-3 pl-2">Tip Amount</p>
+                            <p class="tip-person pl-2">/person</p>
+                        </div>
+                        <div class="tip-total col-lg-6 col-sm-6 pt-3 pr-4">$0.00</div>   
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                            <p class="tip pt-3 pl-2">Total</p>
+                            <p  class="tip-person pl-2">/person</p>
+                        </div>
+                        <div class="tip-total-amount col-lg-6 col-sm-6 pt-3 pr-4">$0.00</div>  
+                    </div>
+                     
+                    <button class="btn-block reset">RESET</button>
+                </div>   
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
