@@ -157,7 +157,7 @@ body{
         background-color:  hsl(185, 41%, 84%);
         font-family: 'Space Mono', monospace;
         box-sizing: border-box;
-    
+        width: 100%;
     }
     .logo-div{
         text-align: center;
@@ -167,9 +167,9 @@ body{
         margin-top: 5%;
     }
     .main{
+        width:100%;
         background-color: white;
         border: 2px solid white;
-        width: 100%;
         border-radius: 17px;
     }
     .bill-label{
