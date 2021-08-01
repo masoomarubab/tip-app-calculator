@@ -152,7 +152,7 @@ body{
 
 
 
-@media (min-width: 200px) and (max-width: 375px){ 
+@media screen and (device-width: 375px){ 
     body{
         background-color:  hsl(185, 41%, 84%);
         font-family: 'Space Mono', monospace;
