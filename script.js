@@ -25,22 +25,39 @@ const calculate=function(data){
 
 const btn1=document.querySelector('#btn5');
 btn1.addEventListener('click',function(){
+    if(document.querySelector('.No-of-people').value != 0 || document.querySelector('.No-of-people').value != NaN ){
+        document.querySelector('.people-span').innerHTML=' '
+    }
     calculate(5)
 })
+
+
 const btn2=document.querySelector('#btn10');
 btn2.addEventListener('click',function(){
+    if(document.querySelector('.No-of-people').value != 0 || document.querySelector('.No-of-people').value != NaN ){
+        document.querySelector('.people-span').innerHTML=' '
+    }
     calculate(10)
 })
 const btn3=document.querySelector('#btn15');
 btn3.addEventListener('click',function(){
+    if(document.querySelector('.No-of-people').value != 0 || document.querySelector('.No-of-people').value != NaN ){
+        document.querySelector('.people-span').innerHTML=' '
+    }
     calculate(15)
 })
 const btn4=document.querySelector('#btn25');
 btn4.addEventListener('click',function(){
+    if(document.querySelector('.No-of-people').value != 0 || document.querySelector('.No-of-people').value != NaN ){
+        document.querySelector('.people-span').innerHTML=' '
+    }
     calculate(25)
 })
 const btn5=document.querySelector('#btn50');
 btn5.addEventListener('click',function(){
+    if(document.querySelector('.No-of-people').value != 0 || document.querySelector('.No-of-people').value != NaN ){
+        document.querySelector('.people-span').innerHTML=' '
+    }
     calculate(50)
 })
 const customBtn= document.querySelector('.custom-btn');
