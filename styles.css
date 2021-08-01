@@ -157,6 +157,7 @@ body{
         background-color:  hsl(185, 41%, 84%);
         font-family: 'Space Mono', monospace;
         box-sizing: border-box;
+        width: 100%;
     }
     .logo-div{
         text-align: center;
@@ -198,7 +199,7 @@ body{
     .btn{
         background-color: hsl(183, 100%, 15%);
         color: white;
-        width:50%;
+        width:47%;
         display: flex;
         justify-content:space-around;
         margin-top: 5px;
@@ -217,7 +218,7 @@ body{
         background-color: hsl(189, 41%, 97%);
         text-align: center;
         border: none;
-        width: 50%;
+        width: 47%;
         display: flex;
         justify-content: space-around;
         height: 37px;
