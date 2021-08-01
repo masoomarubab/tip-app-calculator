@@ -205,7 +205,6 @@ body{
         text-align: center;
         margin-right: 5px;
         margin-bottom: 9px;
-        text-align: center;
     }
     .btn:focus{
         outline-color:hsl(172, 67%, 45%) ;
