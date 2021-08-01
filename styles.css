@@ -157,11 +157,12 @@ body{
         background-color:  hsl(185, 41%, 84%);
         font-family: 'Space Mono', monospace;
         box-sizing: border-box;
-        width: 100%;
+        /* width: 100%; */
     }
     .logo-div{
         text-align: center;
         object-fit: fill;
+        width: 100%;
     }
     .logo{
         margin-top: 5%;
