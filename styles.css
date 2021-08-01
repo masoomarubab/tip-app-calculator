@@ -200,6 +200,8 @@ body{
         background-color: hsl(183, 100%, 15%);
         color: white;
         width:50%;
+        display: flex;
+        justify-content: space-between;
         margin-top: 5px;
         text-align: center;
         margin-right: 5px;
@@ -215,7 +217,9 @@ body{
         background-color: hsl(189, 41%, 97%);
         text-align: center;
         border: none;
-        /* width: 28%; */
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
         height: 37px;
         margin-top: 5px;
         border-radius: 2px;
