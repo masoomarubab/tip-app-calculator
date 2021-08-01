@@ -2,7 +2,6 @@ body{
     background-color:  hsl(185, 41%, 84%);
     font-family: 'Space Mono', monospace;
     box-sizing: border-box;
-
 }
 .logo-div{
     text-align: center;
@@ -13,11 +12,10 @@ body{
 }
 .main{
     background-color: white;
-    position: relative;
-    left:24%;
+    /* position: relative;
+    left:24%; */
     border: 2px solid white;
     border-radius: 17px;
-    width: 50%;
 }
 .bill-label{
     color: hsl(183, 100%, 15%);
@@ -46,7 +44,6 @@ body{
 .btn{
     background-color: hsl(183, 100%, 15%);
     color: white;
-    width:28%;
     margin-top: 5px;
     text-align: center;
     margin-right: 5px;
@@ -62,7 +59,6 @@ body{
     background-color: hsl(189, 41%, 97%);
     text-align: center;
     border: none;
-    width: 28%;
     height: 37px;
     margin-top: 5px;
     border-radius: 2px;
@@ -150,157 +146,3 @@ body{
     font-size: 0.7em;
 }
 
-
-
-@media screen and (device-width: 375px){ 
-    body{
-        background-color:  hsl(185, 41%, 84%);
-        font-family: 'Space Mono', monospace;
-        box-sizing: border-box;
-        width: 100%;
-    }
-    .logo-div{
-        text-align: center;
-        object-fit: fill;
-        /* width: 100%; */
-    }
-    .logo{
-        margin-top: 5%;
-    }
-    .main{
-        width: 100%;
-        background-color: white;
-        border: 2px solid white;
-        border-radius: 17px;
-    }
-    .bill-label{
-        color: hsl(183, 100%, 15%);
-        font-size: 0.7em;
-    }
-    .bill{
-        background-image: url("images/icon-dollar.svg");
-        background-repeat:no-repeat;
-        background-position:left;  
-        padding:10px;
-        background-color: hsl(189, 41%, 97%);
-        border: none;
-        text-align: right;
-        border-radius: 5px;
-        /* font-size: 16px; */
-        color: hsl(183, 100%, 15%);
-        font-weight: bolder;
-        cursor: pointer;
-    }
-    .bill:hover{
-        outline-color: hsl(183, 100%, 15%);
-    }
-    .bill:focus{
-        outline-color: hsl(183, 100%, 15%);
-    }
-    .btn{
-        background-color: hsl(183, 100%, 15%);
-        color: white;
-        width:48%;
-        margin-top: 5px;
-        text-align: center;
-        margin-right: 5px;
-        margin-bottom: 9px;
-    }
-    .btn:focus{
-        outline-color:hsl(172, 67%, 45%) ;
-        background-color:hsl(172, 67%, 45%) ;
-        border-color:hsl(172, 67%, 45%)  ;
-        color: hsl(183, 100%, 15%);
-    }
-    .custom-btn{
-        background-color: hsl(189, 41%, 97%);
-        text-align: center;
-        border: none;
-        width: 48%;
-        height: 37px;
-        margin-top: 5px;
-        border-radius: 2px;
-        color: hsl(183, 100%, 15%);
-        font-weight: bold;
-        outline-color: hsl(185, 41%, 84%);
-        cursor: pointer;
-    }
-    .custom-btn:focus{
-        outline-color:hsl(172, 67%, 45%) ;
-        background-color:hsl(172, 67%, 45%) ;
-        border-color:hsl(172, 67%, 45%)  ;
-    }
-    .No-of-people{
-        font-size: 24px;
-        border: none;
-        background-color: hsl(189, 41%, 97%);
-        color: hsl(183, 100%, 15%);
-        text-align: right;
-        border-radius: 5px;
-        height: 35px;
-        padding: 10px;
-        font-weight: bolder;
-        cursor: pointer;
-    }
-    .No-of-people:hover{
-        outline-color: hsl(183, 100%, 15%);
-    }
-    .No-of-people:focus{
-        outline-color: hsl(183, 100%, 15%);
-    }
-    .icon{
-        float: left;
-        margin-right: 6px;
-        margin-top: -20px;
-        position: relative;
-        z-index: 2;
-        color: hsl(187, 14%, 50%);
-        padding-left: 10px;
-    }       
-    .tip-amount{
-        background-color: hsl(183, 100%, 15%);
-        border-radius: 10px;
-    }
-    .tip{
-        color: white;
-        margin-bottom: 0px;
-        font-size: 0.5em;
-    }
-    .tip-person{
-        color: hsl(189, 41%, 97%);
-        font-size: 0.6em;
-    }
-    .tip-total-amount{
-        color:hsl(172, 67%, 45%) ;
-        font-size: 1em;
-        text-align: right;
-    }
-    .tip-total{
-        color:hsl(172, 67%, 45%) ;
-        font-size: 1em;
-        text-align: right;
-    }
-    .reset{
-        background-color: hsl(185, 41%, 84%);
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        /* position: relative;
-        top: 100px; */
-        height: 40px;
-        color: hsl(183, 100%, 15%);
-        cursor: pointer;
-        font-weight: bolder;
-    }
-    
-    .reset:focus{
-        outline-color:hsl(172, 67%, 45%) ;
-        background-color:hsl(172, 67%, 45%) ;
-        border-color:hsl(172, 67%, 45%)  ;
-    }
-    .people-span1{
-        text-align: right;
-        color: red;
-        font-size: 0.7em;
-    }
- }

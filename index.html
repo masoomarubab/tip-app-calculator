@@ -19,61 +19,63 @@
     <div class="logo-div mb-3">
         <img src="images/logo.svg" class="logo" alt="">
     </div>
-
-    <main class="main">
-        <div class="row m-3">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="input1">
-                    <label for="" class="bill-label pt-4">Bill</label> <br>
-                    <input type="text" class="bill w-100" name="" id="bill-input">
-                </div>
-    
-                <div class="w-100">
-                    <label for=""  class="bill-label pt-4">Select tip %</label> <br>
-                    <div class="div-btns">
-                        <button class="btn" id="btn5" value="5">5%</button>
-                        <button class="btn" id="btn10" value="10">10%</button>
-                        <button class="btn" id="btn15" value="15">15%</button>
-                        <button class="btn" id="btn25" value="25">25%</button>
-                        <button class="btn" id="btn50" value="50">50%</button>
-                        <input type="text" class="custom-btn" name="" id="custom-tip-input" placeholder="Custom">
+    <div class="d-flex align-items-center justify-content-center">
+        <main class="col-lg-6 col-12  main">
+            <div class="row m-3">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="input1">
+                        <label for="" class="bill-label pt-4">Bill</label> <br>
+                        <input type="text" class="bill w-100" name="" id="bill-input">
                     </div>
-                </div>
-    
-                <div class="pb-4"> 
-                    <label for=""  class="bill-label pt-4">Number of People</label> <br>
-                    <span class="people-span"></span>
-                    <input type="text" class="No-of-people w-100" name="people-input" id="">
-                    <i class="fa fa-user icon"></i>
-                </div>    
-    
-            </div>
-    
-            <div class="col-lg-6 col-md-12 col-sm-12 mt-4 mb-4 ">
-                <div class="tip-amount pr-3 pl-3 h-100 w-100">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6 col-auto">
-                            <p class="tip pt-3 pl-2 mt-3">Tip Amount</p>
-                            <p class="tip-person pl-2">/person</p>
+        
+                    <div class="w-100">
+                        <label for=""  class="bill-label pt-4">Select tip %</label> <br>
+                        <div class="div-btns">
+                            <button class="btn w-25" id="btn5" value="5">5%</button>
+                            <button class="btn w-25" id="btn10" value="10">10%</button>
+                            <button class="btn w-25" id="btn15" value="15">15%</button>
+                            <button class="btn w-25" id="btn25" value="25">25%</button>
+                            <button class="btn w-25" id="btn50" value="50">50%</button>
+                            <input type="text" class="custom-btn w-25" name="" id="custom-tip-input" placeholder="Custom">
                         </div>
-                        <div class="tip-total col-lg-6 col-sm-6 col-xs-6 pr-3 pt-3 mt-3">$0.00</div>   
                     </div>
+        
+                    <div class="pb-4"> 
+                        <label for=""  class="bill-label pt-4">Number of People</label> <br>
+                        <span class="people-span"></span>
+                        <input type="text" class="No-of-people w-100" name="people-input" id="">
+                        <i class="fa fa-user icon"></i>
+                    </div>    
+        
+                </div>
+        
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-4 mb-4 ">
+                    <div class="tip-amount pr-3 pl-3 h-100 w-100">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 col-auto">
+                                <p class="tip pt-3 pl-2 mt-3">Tip Amount</p>
+                                <p class="tip-person pl-2">/person</p>
+                            </div>
+                            <div class="tip-total col-lg-6 col-sm-6 col-xs-6 pr-3 pt-3 mt-3">$0.00</div>   
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 col-auto">
+                                <p class="tip pt-3 pl-2">Total</p>
+                                <p  class="tip-person pl-2 mb-5">/person</p>
+                            </div>
+                            <div class="tip-total-amount col-lg-6 col-sm-6 col-xs-6 pr-3 pt-3 mb-5">$0.00</div>  
+                        </div>
+                            
+                        <button class="btn-block reset mt-5 mb-2">RESET</button>
+                    </div>   
                     
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6 col-auto">
-                            <p class="tip pt-3 pl-2">Total</p>
-                            <p  class="tip-person pl-2 mb-5">/person</p>
-                        </div>
-                        <div class="tip-total-amount col-lg-6 col-sm-6 col-xs-6 pr-3 pt-3 mb-5">$0.00</div>  
-                    </div>
-                     
-                    <button class="btn-block reset mt-5 mb-2">RESET</button>
-                </div>   
-                
+                </div>
             </div>
-        </div>
-    </main>
-
+        </main>
+        
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
