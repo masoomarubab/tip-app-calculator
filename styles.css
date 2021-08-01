@@ -168,7 +168,7 @@ body{
         margin-top: 5%;
     }
     .main{
-        width: 100%;
+        min-width: 100%;
         background-color: white;
         border: 2px solid white;
         border-radius: 17px;
